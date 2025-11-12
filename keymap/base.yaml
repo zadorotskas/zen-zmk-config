@@ -180,10 +180,10 @@ layers:
   - ''
   - ''
   - ''
-  - Home
-  - Page Down
-  - Page Up
-  - End
+  - ''
+  - $$mdi:arrow-up-bold$$
+  - ''
+  - ''
   - ''
   - ''
   - $$mdi:apple-keyboard-control$$
@@ -191,9 +191,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
   - ''
+  - ''
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-up-bold$$
   - ''
   - ''
