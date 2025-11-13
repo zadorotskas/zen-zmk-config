@@ -45,11 +45,11 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: CONF}
   SYM:
   - ''
-  - Q
-  - W
-  - E
-  - R
-  - T
+  - Ctl+Q
+  - Ctl+W
+  - Ctl+E
+  - Ctl+R
+  - Ctl+T
   - {t: '?', s: '!'}
   - {t: '[', s: '{'}
   - {t: '''', s: '"'}
@@ -57,11 +57,11 @@ layers:
   - {t: '=', s: '~'}
   - ''
   - $$mdi:apple-keyboard-control$$
-  - A
-  - S
-  - D
-  - F
-  - G
+  - Ctl+A
+  - Ctl+S
+  - Ctl+D
+  - Ctl+F
+  - Ctl+G
   - {t: '-', s: +}
   - {t: (, s: <}
   - {t: /, s: \}
@@ -69,11 +69,11 @@ layers:
   - {t: '@', s: '&'}
   - ''
   - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+B
   - {t: '#', s: '*'}
   - {t: ^, s: '%'}
   - {t: '|', s: _}
