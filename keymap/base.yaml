@@ -45,35 +45,35 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: CONF}
   SYM:
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
   - {t: '?', s: '!'}
   - {t: '[', s: '{'}
   - {t: '''', s: '"'}
   - {t: ']', s: '}'}
   - {t: '=', s: '~'}
   - ''
-  - ''
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-shift$$
-  - ''
+  - A
+  - S
+  - D
+  - F
+  - G
   - {t: '-', s: +}
   - {t: (, s: <}
   - {t: /, s: \}
   - {t: ), s: '>'}
   - {t: '@', s: '&'}
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - $$mdi:web$$
-  - ''
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
   - {t: '#', s: '*'}
   - {t: ^, s: '%'}
   - {t: '|', s: _}
