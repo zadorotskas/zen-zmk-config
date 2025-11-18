@@ -112,8 +112,11 @@ ZMK_COMBO(gm_inner_thmbs,  &to BAS,    LH0 RH0,      GM, COMBO_TERM_FAST)
 
 
 ZMK_MACRO(cmd_c,
-    tap-ms = <100>;
-    bindings = <&kp LMMOD &kp C>;
+    bindings
+    = <&macro_press &kp LMMOD>
+    , <&macro_tap &kp C>
+    , <&macro_release &kp LMMOD>
+    ;    
 )
 
 ZMK_LAYER(BASE,
