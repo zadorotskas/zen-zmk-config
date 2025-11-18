@@ -110,6 +110,11 @@ ZMK_COMBO(gm_inner_thmbs,  &to BAS,    LH0 RH0,      GM, COMBO_TERM_FAST)
 // ZMK_COMBO(bas_mid_thmbs,   &s_mouse,   LH1 RH1, BAS,     COMBO_TERM_FAST)
 /* ZMK_COMBO(bas_outer_thmbs, &caps_word, LH2 RH2, BAS,     COMBO_TERM_FAST) */
 
+
+ZMK_MACRO(cmd_c,
+    bindings = <&kp C &kp LMMOD>;
+)
+
 ZMK_LAYER(BASE,
 //╭.............┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬.............╮
     &kp BSLH      &kp Q         &kp W         &kp E         &kp R         &kp T           &kp Y         &kp U         &kp I         &kp O         &kp P         &kp LBKT
@@ -128,7 +133,7 @@ ZMK_LAYER(SYM,
 //├.............┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼.............┤
     &kp LSMOD     &kp LC(A)     &kp LC(S)     &kp LC(D)     &kp LC(F)     &kp LC(G)       &s_min_pls    &s_lpar_lt    &s_slh_bslh   &s_rpar_gt    &s_at_amp     ___
 //├.............┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼.............┤
-    &kp LSHFT     &kp LC(Z)     &kp LC(X)     &kp LMMOD(C)  &kp LC(V)     &kp LC(B)       &s_hsh_ast    &s_car_pc     &s_pip_unscr  &s_dlr_grv    &s_col_scol   ___
+    &kp LSHFT     &kp LC(Z)     &kp LC(X)     &cmd_c        &kp LC(V)     &kp LC(B)       &s_hsh_ast    &s_car_pc     &s_pip_unscr  &s_dlr_grv    &s_col_scol   ___
 //╰.............┼─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴.............╯
                                               &kp ESC       &kp TAB       ___             ___           &kp BSPC      &kp DEL
 //                                          ╰─────────────┴─────────────┴─────────────╯ ╰─────────────┴─────────────┴─────────────╯
