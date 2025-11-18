@@ -71,7 +71,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Ctl+Z
   - Ctl+X
-  - LGUI(C)
+  - '&cmd_c'
   - Ctl+V
   - Ctl+B
   - {t: '#', s: '*'}
