@@ -112,8 +112,7 @@ ZMK_COMBO(gm_inner_thmbs,  &to BAS,    LH0 RH0,      GM, COMBO_TERM_FAST)
 
 
 ZMK_MACRO(cmd_c,
-    wait-ms = <100>;
-    tap-ms = <5>;
+    tap-ms = <100>;
     bindings = <&kp LMMOD &kp C>;
 )
 
